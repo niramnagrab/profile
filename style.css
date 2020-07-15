@@ -1,0 +1,112 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  /*background: #cae8dc;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  line-height: 55px;
+  text-align: center;
+  background: rgb(152,147,236);
+  background: linear-gradient(90deg, rgba(152,147,236,1) 0%, rgba(244,252,134,0.8953956582633054) 50%, rgba(45,230,246,0.8925945378151261) 93%);
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  padding-top: 20px
+  color: #5CCC98;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  line-height: 20px;
+  color: #7ECE90;
+  padding: 15px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  align-items: center
+}
+
+.card, .list-inline {
+  background: white;
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.card a:hover {
+  color: red;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 30px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
